@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/Inter_18pt-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../fonts/Inter_18pt-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+
+}
+
+.nav {
+    background-color: #0A0A0A;
+    color: #717171;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
